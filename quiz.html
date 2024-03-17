@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quizopedia</title>
+  <!-- <meta name="title" content="Quizopedia"> -->
+  <!-- <meta name="description" content="This is an education html template made by codewithsadee"> -->
+  <!-- <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml"> -->
+  <link rel="stylesheet" href="quiz.css">
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <!-- <link rel="preload" as="image" href="./assets/images/hero-bg.svg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-1.svg">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-2.png"> -->
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="quizpics/logo3.png" width="202" height="100">
+      </a>
+      <nav class="navbar" data-navbar>
+        <div class="wrapper">
+          <a href="quizpics/logo3.png" class="logo">
+            <img src="quizpics/logo3.png" width="162" height="50">
+          </a>
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+        <div class="header-actions">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+          </li>
+          <li class="navbar-item">
+            <a href="about.html" class="navbar-link" data-nav-link>About</a>
+          </li>
+          <li class="navbar-item">
+            <a href="course.html" class="navbar-link" data-nav-link>Courses</a>
+          </li>
+          <li class="navbar-item">
+            <a href="blog.html" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+          <li class="navbar-item">
+            <a href="contact.html" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>Create a Community</a>
+          </li>
+        </ul>
+      </nav>
+        <button class="header-action-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+      <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" id="home" aria-label="home"
+        style="background-image: url('imagesa/hero-bg.svg');">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 section-title">
+              Explore various<span class="span"> Quizzes</span> at Quizopedia
+            </h1>
+
+            <p class="hero-text">
+              Satisfy Your Curiosity, Embark on a Quiz Odyssey with Quizopedia!
+            </p>
+
+            <a href="course.html" class="btn has-before" style="background-color: rgb(35,35,71);">
+              <span class="span">Visit courses</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+          <figure class="hero-banner">
+
+            <div class="img-holder one" style="--width: 270; --height: 300;">
+              <img src="imagesa/hero-banner-1.jpg" width="200" height="280" alt="hero banner" class="img-cover">
+            </div>
+
+            <div class="img-holder two" style="--width: 240; --height: 370;">
+              <img src="imagesa/hero-banner-2.jpg" width="200" height="300" alt="hero banner" class="img-cover">
+            </div>
+
+            <!-- <img src="./assets/images/hero-shape-1.svg" width="380" height="190" alt="" class="shape hero-shape-1"> -->
+
+            <img src="imagesa/hero-shape-2.png" width="622" height="551" alt="" class="shape hero-shape-2">
+
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CATEGORY
+      -->
+
+      <section class="section category" aria-label="category">
+        <div class="container">
+
+          <p class="section-subtitle">Quiz Categories</p>
+
+          <h2 class="h2 section-title">
+            Quizopedia Categories: Dive into Diverse Knowledge Realms!
+          </h2>
+
+          <p class="section-text">
+            Unleash Your Curiosity, Explore Various Quiz Horizons!
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="category-card" style="--color: 170, 75%, 41%">
+
+                <div class="card-icon">
+                  <img src="imagesa/category-1.svg" width="40" height="40" loading="lazy"
+                    alt="Online Degree Programs" class="img">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">General Knowledge</a>
+                </h3>
+
+                <p class="card-text">
+                  Unlock endless curiosity with Quizopedia's General Knowledge Quiz. Explore diverse topics and test your intellect today!
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card" style="--color: 351, 83%, 61%">
+
+                <div class="card-icon">
+                  <img src="imagesa/category-2.svg" width="40" height="40" loading="lazy"
+                    alt="Non-Degree Programs" class="img">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Web Quiz</a>
+                </h3>
+
+                <p class="card-text">
+                  Dive into the digital realm with Quizopedia's Web Quiz. Explore internet trivia and challenge your online knowledge!
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card" style="--color: 229, 75%, 58%">
+
+                <div class="card-icon">
+                  <img src="imagesa/category-3.svg" width="40" height="40" loading="lazy"
+                    alt="Off-Campus Programs" class="img">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Hooked-Up Manifesto </a>
+                </h3>
+
+                <p class="card-text">
+                  Explore the world of streaming with Hooked-Up Quiz. Test your knowledge of popular shows and streaming trends!
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card" style="--color: 42, 94%, 55%">
+
+                <div class="card-icon">
+                  <img src="imagesa/category-4.svg" width="40" height="40" loading="lazy"
+                    alt="Hybrid Distance Programs" class="img">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Medical Quiz</a>
+                </h3>
+
+                <p class="card-text">
+                  Dive into the world of medicine with Medical Quiz. Test your knowledge on anatomy, diseases, and medical advancements!
+                </p>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #COURSE
+      -->
+
+      <section class="section course" id="courses" aria-label="course">
+        <div class="container">
+          <h2 class="h2 section-title">Embark on a captivating journey through an array of Quiz genres!</h2>
+          <p class="section-subtitle" class="section-title">Choose Difficulty level</p>
+          <div class="difficulty-options">
+            <button class="difficulty-btn" data-difficulty="easy" onclick="window.location.href='quiz.html';">Easy</button>
+            <button class="difficulty-btn" data-difficulty="medium" onclick="window.location.href='med.html';">Medium</button>
+            <button class="difficulty-btn" data-difficulty="hard" onclick="window.location.href='hard.html';">Hard</button>
+            <script src="quiz.js"></script>
+          </div>
+          <br>
+          <ul class="grid-list">
+            <li>
+              <div class="course-card" onclick="window.location.href='rules.html';">
+                <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                  <img src="quizpics/gkquiz.jpg" width="370" height="220" loading="lazy" alt="Build Responsive Real- World Websites with HTML and CSS" class="img-cover">
+                </figure>
+                <div class="card-content">
+                <h3 class="h3">
+                <a href="#" class="card-title">General Knowledge quiz</a>
+                </h3>
+                <ul class="card-meta-list">
+                  <li class="card-meta-item">
+                    <ion-icon name="help-circle-outline" aria-hidden="true"></ion-icon>
+                    <span class="span">10 QUESTIONS</span>
+                  </li>
+                  <li class="card-meta-item">
+                    <ion-icon name="timer-outline" aria-hidden="true"></ion-icon>
+                    <span class="span">100 SECONDS</span>
+                  </li>
+                </ul>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+                <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                  <img src="quizpics/historyquiz.png" width="370" height="220" loading="lazy"
+                    alt="Java Programming Masterclass for Software Developers" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">History Quiz</a>
+                  </h3>
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <ion-icon name="help-circle-outline" aria-hidden="true"></ion-icon>
+                      <span class="span">10 QUESTIONS</span>
+                    </li>
+                    <li class="card-meta-item">
+                      <ion-icon name="timer-outline" aria-hidden="true"></ion-icon>
+                      <span class="span">100 SECONDS</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+                <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                  <img src="quizpics/maths.quiz.png" width="370" height="220" loading="lazy"
+                    alt="The Complete Camtasia Course for Content Creators" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Maths Quiz</a>
+                  </h3>
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <ion-icon name="help-circle-outline" aria-hidden="true"></ion-icon>
+                      <span class="span">10 QUESTIONS</span>
+                    </li>
+                    <li class="card-meta-item">
+                      <ion-icon name="timer-outline" aria-hidden="true"></ion-icon>
+                      <span class="span">100 SECONDS</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+                <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                  <img src="quizpics/netflixquiz.jpg" width="370" height="220" loading="lazy"
+                    alt="The Complete Camtasia Course for Content Creators" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Netflix Quiz</a>
+                  </h3>
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <ion-icon name="help-circle-outline" aria-hidden="true"></ion-icon>
+                      <span class="span">10 QUESTIONS</span>
+                    </li>
+                    <li class="card-meta-item">
+                      <ion-icon name="timer-outline" aria-hidden="true"></ion-icon>
+                      <span class="span">100 SECONDS</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="course-card">
+                <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                  <img src="quizpics/disneyquiz.webp" width="370" height="220" loading="lazy"
+                    alt="The Complete Camtasia Course for Content Creators" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Disney + Hotstar Quiz</a>
+                  </h3>
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <ion-icon name="help-circle-outline" aria-hidden="true"></ion-icon>
+                      <span class="span">10 QUESTIONS</span>
+                    </li>
+                    <li class="card-meta-item">
+                      <ion-icon name="timer-outline" aria-hidden="true"></ion-icon>
+                      <span class="span">100 SECONDS</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="course-card">
+                <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                  <img src="quizpics/jiocinemaquiz.jpg" width="370" height="220" loading="lazy"
+                    alt="The Complete Camtasia Course for Content Creators" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Jio Cinema Quiz</a>
+                  </h3>
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <ion-icon name="help-circle-outline" aria-hidden="true"></ion-icon>
+                      <span class="span">10 QUESTIONS</span>
+                    </li>
+                    <li class="card-meta-item">
+                      <ion-icon name="timer-outline" aria-hidden="true"></ion-icon>
+                      <span class="span">100 SECONDS</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="course-card">
+                <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                  <img src="quizpics/zee5quiz.avif" width="370" height="220" loading="lazy"
+                    alt="The Complete Camtasia Course for Content Creators" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">ZEE5 Quiz</a>
+                  </h3>
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <ion-icon name="help-circle-outline" aria-hidden="true"></ion-icon>
+                      <span class="span">10 QUESTIONS</span>
+                    </li>
+                    <li class="card-meta-item">
+                      <ion-icon name="timer-outline" aria-hidden="true"></ion-icon>
+                      <span class="span">100 SECONDS</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="course-card">
+                <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                  <img src="quizpics/primequiz.webp" width="370" height="220" loading="lazy"
+                    alt="The Complete Camtasia Course for Content Creators" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Amazon Prime Quiz</a>
+                  </h3>
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <ion-icon name="help-circle-outline" aria-hidden="true"></ion-icon>
+                      <span class="span">10 QUESTIONS</span>
+                    </li>
+                    <li class="card-meta-item">
+                      <ion-icon name="timer-outline" aria-hidden="true"></ion-icon>
+                      <span class="span">100 SECONDS</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="course-card">
+                <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                  <img src="quizpics/jsquiz.webp" width="370" height="220" loading="lazy"
+                    alt="The Complete Camtasia Course for Content Creators" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">JavaScript Quiz</a>
+                  </h3>
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <ion-icon name="help-circle-outline" aria-hidden="true"></ion-icon>
+                      <span class="span">10 QUESTIONS</span>
+                    </li>
+                    <li class="card-meta-item">
+                      <ion-icon name="timer-outline" aria-hidden="true"></ion-icon>
+                      <span class="span">100 SECONDS</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="course-card">
+                <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                  <img src="quizpics/htmlquiz.jpg" width="370" height="220" loading="lazy"
+                    alt="The Complete Camtasia Course for Content Creators" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">HTML Quiz</a>
+                  </h3>
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <ion-icon name="help-circle-outline" aria-hidden="true"></ion-icon>
+                      <span class="span">10 QUESTIONS</span>
+                    </li>
+                    <li class="card-meta-item">
+                      <ion-icon name="timer-outline" aria-hidden="true"></ion-icon>
+                      <span class="span">100 SECONDS</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="course-card">
+                <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                  <img src="quizpics/cssQuiz.png" width="370" height="220" loading="lazy"
+                    alt="The Complete Camtasia Course for Content Creators" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">CSS Quiz</a>
+                  </h3>
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <ion-icon name="help-circle-outline" aria-hidden="true"></ion-icon>
+                      <span class="span">10 QUESTIONS</span>
+                    </li>
+                    <li class="card-meta-item">
+                      <ion-icon name="timer-outline" aria-hidden="true"></ion-icon>
+                      <span class="span">100 SECONDS</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="course-card">
+                <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                  <img src="quizpics/medicalquiz.jpeg" width="370" height="220" loading="lazy"
+                    alt="The Complete Camtasia Course for Content Creators" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Medical Quiz</a>
+                  </h3>
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <ion-icon name="help-circle-outline" aria-hidden="true"></ion-icon>
+                      <span class="span">10 QUESTIONS</span>
+                    </li>
+                    <li class="card-meta-item">
+                      <ion-icon name="timer-outline" aria-hidden="true"></ion-icon>
+                      <span class="span">100 SECONDS</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #STATE
+      -->
+
+      <!-- <section class="section stats" aria-label="stats">
+        <div class="container">
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="stats-card" style="--color: 170, 75%, 41%">
+                <h3 class="card-title">29.3k</h3>
+
+                <p class="card-text">Student Enrolled</p>
+              </div>
+            </li>
+
+            <li>
+              <div class="stats-card" style="--color: 351, 83%, 61%">
+                <h3 class="card-title">32.4K</h3>
+
+                <p class="card-text">Class Completed</p>
+              </div>
+            </li>
+
+            <li>
+              <div class="stats-card" style="--color: 260, 100%, 67%">
+                <h3 class="card-title">100%</h3>
+
+                <p class="card-text">Satisfaction Rate</p>
+              </div>
+            </li>
+
+            <li>
+              <div class="stats-card" style="--color: 42, 94%, 55%">
+                <h3 class="card-title">354+</h3>
+
+                <p class="card-text">Top Instructors</p>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section> -->
+
+    </article>
+  </main>
+
+  <!-- 
+    - #FOOTER
+  -->
+  <footer>
+    <div class="footer-col">
+        <h3>Top Products</h3>
+        <li>Manage Reputation</li>
+        <li>Power Tools</li>
+        <li>Managed Website</li>
+        <li>Marketing Service</li>
+    </div>
+    <div class="footer-col">
+        <h3>Quick Links</h3>
+        <li>Jobs</li>
+        <li>Marketing Services</li>
+        <li>Top Products</li>
+        <li>Manage Reputations</li>
+    </div>
+    <div class="footer-col">
+        <h3>Features</h3>
+        <li>Manage Reputation</li>
+        <li>Power Tools</li>
+        <li>Managed Website</li>
+        <li>Marketing Service</li>
+    </div>
+    <div class="footer-col">
+        <h3>Resources</h3>
+        <li>Guides</li>
+        <li>Research</li>
+        <li>Experts</li>
+        <li>Marketing Service</li>
+    </div>
+
+    <div class="footer-col">
+        <h3>Newsletter</h3>
+        <p>You can trust us, we only send your progress and achievements</p>
+        <div class="subscribe-enter">
+            <input type="text" placeholder="Your Email address">
+            <button class="enter">ENTER</button>
+        </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright <i class="fas fa-copyright"></i> 2024 All rights reserved by Quizopedia</p>
+      <div class="pro-links">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin-in"></i>
+      </div>
+  </div>
+</footer>
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back top top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

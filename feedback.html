@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quizopedia</title>
+
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+
+        <link rel="stylesheet" href="feedback.css">
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+
+        <!-- Navigation -->
+        <nav>
+            <img src="quizpics/logo3.png" alt="">
+            <div class="navigation">
+                <ul>
+                    <i id="menu-close" class="fas fa-times"></i>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li> 
+                </ul>
+                <img id="menu-btn" src="images/menu.png" alt="">
+            </div>
+        </nav>
+
+        <!-- Home -->
+        <section id="about-home">
+            <h2>Feedback</h2>
+        </section>
+
+        <section id="feed-contact">
+            <div class="feed-getin">
+                <h2>Get in Touch</h2>
+                <p>Looking for help? Fill the form and start a new adventure.</p>
+
+                <div class="feed-getin-details">
+                    <h3>Address</h3>
+                    <div>
+                        <i class="far fa-home get"></i>
+                        <p>Chitkara University, Rajpura, Punjab, 140401</p>
+                    </div>
+                    <h3>Phone</h3>
+                    <div>
+                        <i class="fas fa-phone-alt get"></i>
+                        <p>+91 80592 41824 <br>
+                           +91 98142 20340 <br>
+                           +91 78149 61169
+                        </p>
+                    </div>
+                    <h3>Support</h3>
+                    <div>
+                        <i class="fal fa-envelope-open-text get"></i>
+                        <p>
+                        harshit0766.be23@chitkara.edu.in <br>
+                        jiyansh0786.be23@chitkara.edu.in <br>
+                        apurav0208.be23@chitkara.edu.in
+                        </p>
+                    </div>
+                    <h3>Follow Us</h3>
+                    <div class="feed-pro-links">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                        <i class="fab fa-behance"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="feed-form">
+                <h4>Quizopedia Feedback Hub</h4>
+                <p>Your Voice, Our Growth: Help Us Craft Your Quizopedia Experience!</p>
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <div class="feed-form-row">
+                        <input type="hidden" name="access_key" value="63e6cdb1-4edc-4b20-b1db-43f416a49a52">
+                        <input type="text" name="name" placeholder="Your Name" class="feed-form-row-get">
+                        <input type="text" name="email" placeholder="Email" class="feed-form-row-get">
+                        <textarea name="Feedback" cols="30" rows="8" placeholder="Your Feedback" class="feed-form-col-get"></textarea>
+                        <button>Send Feedback</button>      
+                        <button id="exit-btn" style="width: 23%;">Exit</button> 
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <script>
+            document.getElementById("exit-btn").addEventListener("click", function() {
+                event.preventDefault();
+                var confirmExit = confirm("Your Feedback form is submitted. Now you can Exit...");
+                if (confirmExit) {
+                    window.location.href="index.html";
+                } 
+                else {
+                    alert("You can now play another Quiz");
+                    window.location.href = "quiz.html";
+                }
+            });
+        </script>
+        
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-col">
+                <h3>Top Products</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed Website</li>
+                <li>Marketing Service</li>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <li>Jobs</li>
+                <li>Marketing Services</li>
+                <li>Top Products</li>
+                <li>Manage Reputations</li>
+            </div>
+            <div class="footer-col">
+                <h3>Features</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed Website</li>
+                <li>Marketing Service</li>
+            </div>
+            <div class="footer-col">
+                <h3>Resources</h3>
+                <li>Guides</li>
+                <li>Research</li>
+                <li>Experts</li>
+                <li>Marketing Service</li>
+            </div>
+
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p>You can trust us, we only send your progress and achievements</p>
+                <div class="subscribe">
+                    <input type="text" placeholder="Your Email address">
+                    <a href="#" class="yellow">ENTER</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright <i class="fas fa-copyright"></i> 2024 All rights reserved by Quizopedia</p>
+                <div class="pro-links">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+        </footer>
+
+
+        <script>
+            $('#menu-btn').click(function() {
+                $('nav .navigation ul').addClass('active')
+            });
+            $('#menu-close').click(function() {
+                $('nav .navigation ul').removeClass('active')
+            });
+        </script>
+
+    </body>
+
+</html>

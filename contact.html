@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quizopedia</title>
+
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+
+        <!-- Navigation -->
+        <nav>
+            <img src="quizpics/logo3.png" alt="">
+            <div class="navigation">
+                <ul>
+                    <i id="menu-close" class="fas fa-times"></i>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="login.html">Signup</a></li>
+                    <li><a href="contact.html">Contact</a></li> 
+                </ul>
+                <img id="menu-btn" src="images/menu.png" alt="">
+            </div>
+        </nav>
+
+        <!-- Home -->
+        <section id="about-home">
+            <h2>Contact Us</h2>
+        </section>
+
+        <section id="contact">
+            <div class="getin">
+                <h2>Get in Touch</h2>
+                <p>Get in touch and let's dive into the world of trivia together!</p>
+
+                <div class="getin-details">
+                    <h3>Address</h3>
+                    <div>
+                        <i class="far fa-home get"></i>
+                        <p>Chitkara University, Rajpura, Punjab, 140401</p>
+                    </div>
+                    <h3>Phone</h3>
+                    <div>
+                        <i class="fas fa-phone-alt get"></i>
+                        <p>+91 80592 41824 <br>
+                           +91 98142 20340 <br>
+                           +91 78149 61169
+                        </p>
+                    </div>
+                    <h3>Support</h3>
+                    <div>
+                        <i class="fal fa-envelope-open-text get"></i>
+                        <p>
+                        harshit0766.be23@chitkara.edu.in <br>
+                        jiyansh0786.be23@chitkara.edu.in <br>
+                        apurav0208.be23@chitkara.edu.in
+                        </p>
+                    </div>
+                    <h3>Follow Us</h3>
+                    <div class="pro-links">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                        <i class="fab fa-behance"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form">
+                <h4>Let's Connect</h4>
+                <p>Looking for help? Fill the form and start a new adventure.</p>
+                <div class="form-row">
+                    <input type="text" placeholder="Your Name">
+                    <input type="text" placeholder="Email">
+                </div>
+                <div class="form-col">
+                    <input type="text" placeholder="Subject">         
+                </div>
+                <div class="form-col">
+                    <textarea name="" id="" cols="30" rows="8" placeholder="How can we help?"></textarea>
+                </div>
+                <div class="form-col">
+                    <button>Send Message</button>        
+                </div>
+            </div>
+        </section>
+
+        <section id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d174660.3256825144!2d76.58261685908413!3d30.48116108881851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391964aa569e7355%3A0x8fbd263103a38861!2sPunjab!5e0!3m2!1sen!2sin!4v1709749692683!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <!-- Footer -->
+        <footer>
+            <div class="footer-col">
+                <h3>Top Products</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed Website</li>
+                <li>Marketing Service</li>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <li>Jobs</li>
+                <li>Marketing Services</li>
+                <li>Top Products</li>
+                <li>Manage Reputations</li>
+            </div>
+            <div class="footer-col">
+                <h3>Features</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed Website</li>
+                <li>Marketing Service</li>
+            </div>
+            <div class="footer-col">
+                <h3>Resources</h3>
+                <li>Guides</li>
+                <li>Research</li>
+                <li>Experts</li>
+                <li>Marketing Service</li>
+            </div>
+
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p>You can trust us, we only send your progress and achievements</p>
+                <div class="subscribe">
+                    <input type="text" placeholder="Your Email address">
+                    <a href="#" class="yellow">ENTER</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright <i class="fas fa-copyright"></i> 2024 All rights reserved by Quizopedia</p>
+                <div class="pro-links">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+        </footer>
+
+
+        <script>
+            $('#menu-btn').click(function() {
+                $('nav .navigation ul').addClass('active')
+            });
+            $('#menu-close').click(function() {
+                $('nav .navigation ul').removeClass('active')
+            });
+        </script>
+
+
+    </body>
+
+</html>

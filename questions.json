@@ -1,0 +1,83 @@
+[
+    {
+      "question": "Who directed the movie 'Life is Beautiful' ?",
+      "choice1": "Roberto Benigni",
+      "choice2": "Rekha M Menon",
+      "choice3": "Aurangzeb",
+      "choice4": "Shaji NM",
+      "answer": 1
+    },
+    {
+      "question": "Is 2 the only even prime number ?",
+      "choice1": "True",
+      "choice2": "False",
+      "choice3": "undefined",
+      "choice4": "none of the above",
+      "answer": 1
+    },
+    {
+      "question": "Sharks are mammals.",
+      "choice1": "True",
+      "choice2": "Undefined",
+      "choice3": "False",
+      "choice4": "none of the above",
+      "answer": 3
+    },
+    {
+      "question": "Which country is considered the birthplace of cricket ?",
+      "choice1": "England",
+      "choice2": "India",
+      "choice3": "Australia",
+      "choice4": "South Africa",
+      "answer": 1
+    },
+    {
+      "question": "Who among the following open the land between India and Europe ?",
+      "choice1": "Iranian",
+      "choice2": "Arabs",
+      "choice3": "Greek",
+      "choice4": "Alexander",
+      "answer": 4
+    },
+    {
+      "question": "Which planet in the solar system is known as the “Red Planet” ?",
+      "choice1": "Mars",
+      "choice2": "Saturn",
+      "choice3": "Jupiter",
+      "choice4": "Venus",
+      "answer": 1
+    },
+    {
+      "question": "What gas is used to extinguish fires ?",
+      "choice1": "Oxygen",
+      "choice2": "Nitrogen",
+      "choice3": "Carbon Dioxide",
+      "choice4": "Hydrogen",
+      "answer": 2
+    },
+    {
+      "question": "What animal is the national symbol of Australia ?",
+      "choice1": "Crocodile",
+      "choice2": "Emu",
+      "choice3": "Koala",
+      "choice4": "Kangaroo",
+      "answer": 4
+    },
+    {
+      "question": "For which Galileo is famous ?",
+      "choice1": "Developed the telescope",
+      "choice2": "Discovered four satellites of Jupiter",
+      "choice3": "Found that the swinging motion of the pendulum results in consistent time measurement.",
+      "choice4": "All of the above",
+      "answer": 4
+    },
+    {
+      "question": "What does 'Carpe Diem' mean in Latin ?",
+      "choice1": "Have no fear",
+      "choice2": "Enjoy the moment",
+      "choice3": "Sorry I blew it",
+      "choice4": "Hello",
+      "answer": 2
+    }
+  ]
+  

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quizopedia</title>
+
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+
+        <!-- Navigation -->
+        <nav>
+            <img src="quizpics/logo3.png" alt="">
+            <div class="navigation">
+                <ul>
+                    <i id="menu-close" class="fas fa-times"></i>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="login.html">Signup</a></li>
+                    <li><a href="contact.html">Contact</a></li> 
+                </ul>
+                <img id="menu-btn" src="images/menu.png" alt="">
+            </div>
+        </nav>
+
+        <!-- Home -->
+        <section id="about-home">
+            <h2>Blog</h2>
+        </section>
+
+        <section id="blog-container">
+            <div class="blogs">
+                <div class="post">
+                    <img src="images/b1.jpg" alt="">
+                    <h3>Learn Web Development in the Easiest Way</h3>
+                    <p>"Welcome to Quizopedia's 'Learn Web Development in the Easiest Way' section! Dive into the world of web development with our simplified learning approach. From HTML to CSS, JavaScript, and beyond, master the fundamentals effortlessly. Let Quizopedia be your guide on your journey to becoming a web development wizard!"</p>
+                    <a href="post.html">Read More</a>
+                </div>
+                <div class="post">
+                    <img src="images/b2.jpg" alt="">
+                    <h3>Programming Fundamentals: Eat, Sleep, Code, Repeat</h3>
+                    <p>"Welcome to 'Programming Fundamentals: Eat, Sleep, Code, Repeat' on Quizopedia! Dive into the essentials of programming with this engaging course. From understanding basic concepts to mastering coding skills, embark on a journey where learning becomes second nature. Join us and unlock the power of programming in an interactive and fun-filled experience!"
+                    </p>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="post">
+                    <img src="images/b3.jpg" alt="">
+                    <h3>Introduction to Machine Learning: Mastering MNIST</h3>
+                    <p>"Embark on your journey into the world of machine learning with 'Introduction to Machine Learning: Mastering MNIST' on Quizopedia! Delve into the fundamentals of artificial intelligence and tackle the iconic MNIST dataset. From understanding algorithms to crafting predictive models, this course equips you with the skills to conquer machine learning challenges. Join us and unravel the secrets of AI in an interactive and engaging learning environment!"</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="post">
+                    <img src="images/b4.png" alt="">
+                    <h3>React and Styled Components: Building a Dark Mode Theme</h3>
+                    <p>"Discover the power of React and Styled Components in 'Building a Dark Mode Theme' on Quizopedia! Dive into the world of modern web development as you learn to craft sleek and dynamic user interfaces. With hands-on projects and expert guidance, this course equips you to implement a stylish dark mode theme effortlessly. Join us to elevate your JavaScript skills and create captivating user experiences with React and Styled Components!"</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+
+            <div class="cate">
+                <h2>Categories</h2>
+                <hr>
+                <a href="#">Web Development</a>
+                <hr>
+                <a href="#">Web Design</a>
+                <hr>
+                <a href="#">Frontend Web</a>
+                <hr>
+                <a href="#">Javascript</a>
+                <hr>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-col">
+                <h3>Top Products</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed Website</li>
+                <li>Marketing Service</li>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <li>Jobs</li>
+                <li>Marketing Services</li>
+                <li>Top Products</li>
+                <li>Manage Reputations</li>
+            </div>
+            <div class="footer-col">
+                <h3>Features</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed Website</li>
+                <li>Marketing Service</li>
+            </div>
+            <div class="footer-col">
+                <h3>Resources</h3>
+                <li>Guides</li>
+                <li>Research</li>
+                <li>Experts</li>
+                <li>Marketing Service</li>
+            </div>
+
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p>You can trust us, we only send your progress and achievements</p>
+                <div class="subscribe">
+                    <input type="text" placeholder="Your Email address">
+                    <a href="#" class="yellow">ENTER</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright <i class="fas fa-copyright"></i> 2024 All rights reserved by Quizopedia</p>
+                <div class="pro-links">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+        </footer>
+
+
+        <script>
+            $('#menu-close').click(function(){
+                $('nav .navigation ul').addClass('active')
+            });
+            $('#menu-close').click(function(){
+                $('nav .navigation ul').removeClass('active')
+            });
+        </script>
+
+
+    </body>
+
+</html>
